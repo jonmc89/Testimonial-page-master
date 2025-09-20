@@ -1,0 +1,20 @@
+/* || Global Styles */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --black: #18181b;
+  --dark-grey: #52525a;
+  --green: #4ca154;
+  --ivory: #fafaf9;
+  --light-grey: #d4d4d8;
+  --yellow: #f5c044;
+  --white: #fff;
+}
+
+/* || Main Style */
