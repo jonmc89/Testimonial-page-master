@@ -1,6 +1,6 @@
 /* || Global Styles */
 
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -18,3 +18,28 @@ body {
 }
 
 /* || Main Style */
+
+.header-image-container {
+  align-items: center;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  padding: 1.5rem;
+  width: 2rem;
+}
+
+.star-symbol {
+  font-size: 1.5rem;
+}
+
+.checklist-item {
+  align-items: center;
+  display: flex;
+}
+
+.review-image-container {
+  align-items: center;
+  display: flex;
+}
