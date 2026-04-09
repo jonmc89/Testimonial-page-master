@@ -1,0 +1,58 @@
+/* || Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+:root {
+    --yellow: #f5c044;
+    --green: #4ca154;
+    --black: #18181b;
+    --dark-grey: #52525a;
+    --light-grey: #d4d4d8;
+    --off-white: #fafaf9;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: "Sora Regular";
+    src: url(./fonts/sora-v17-latin-regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Sora Medium";
+    src: url(./fonts/sora-v17-latin-500.woff2) format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Sora Bold";
+    src: url(./fonts/sora-v17-latin-600.woff2) format("woff2");
+    font-weight: 600;
+}
+
+/* || Main Styles */
+
+/* Typography */
+
+/* */
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+/* Media Queries */
